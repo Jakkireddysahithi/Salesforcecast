@@ -2,6 +2,7 @@
 
 RETAIL FASHION SALES DATA FROM ITALIAN FASHION COMPANY
 
+
 Customer Classification:
 
 As the k value increases the distance between the clusters and within the clusters decreases.
@@ -36,17 +37,19 @@ Sales Forecasting:
 I have used Sales and weather files to include seasonality in the ARIMA Model
 A small number of clothing items are extremely popular and frequently bought, so they get restocked often.
 Most items are not restocked or have low sales volume.
+People tend to buy georgette fabric and black color clothes are mostly sold and Long and medium coats are pricey
+Analyzed sayes for wach season from 2017 to 2019
 
-People tend to buy georgette frabric and black clothes and long and medium coats are pricey
 ------------------------------------------------------
 ---------------------------------------------------
 --------------------------------------------
 
 ARIMA :
 
-Can handle seasonality: so first i have froupes columns according to seasons and month 
-AW: Autumn/winter[next 6 months]
+Can handle seasonality: so first i have dropped columns according to seasons and month 
 SS: spring and summer[jan to august]
+AW: Autumn/winter[next 6 months]
+
 
 calculates sales total sales per month and annual sales per season 
 
